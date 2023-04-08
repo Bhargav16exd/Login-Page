@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainsec{
+    height: 450px;
+    width: 300px;
+    border: 1px solid black;
+    
+}
+.sub{
+    height: 450px;
+    width: 600px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.signup{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+.mail{
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 20px;
+}
+.pass{
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 20px;
+}
