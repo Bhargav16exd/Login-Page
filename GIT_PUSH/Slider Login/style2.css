@@ -24,12 +24,21 @@ body{
     border: 1px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: blue;
+    position: relative;
 }
+
+.sin:hover .sub{
+ 
+   left: -100%;
+}
+
 .login{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;  
+    background-color: white;
 }
 .signup{
    display: flex;
@@ -48,4 +57,29 @@ body{
     font-size: 15px;
     padding: 10px 20px;
     margin: 20px;
+}
+.upEmail{
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+.upPass{
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+.cpass{
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+.sinUP{
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+.sin{
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 10px; 
 }
