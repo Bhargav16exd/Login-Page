@@ -5,27 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style2.css">
+    <script src="./script.js"></script>
     <title>LOGIN
     </title>
 </head>
 <body>
 <section class="mainsec">
-    <div class="sub">
-    <div class="login"> 
-        <input type="email" name="" id="" class="mail" placeholder="Enter Email">
-        <input type="password" name="" id="" class="pass" placeholder="Enter password">
+    <div id="page">
+        <input type="email" class="mail" placeholder="Enter Email">
+        <input type="password" class="pass" placeholder="Enter password">
         <a href="" class="fpass">Forgot Password ?</a>
         <button class="sin">Login In</button>
-        <p class="sup">Dont Have Account ? Sign Up </p>
+        <button class="x" onclick=" abc()" >Sign Up?</button>
     </div>
-    <div class="signup">
-        <input type="email" name="" id="" class="upEmail" placeholder="Enter Email">
-        <input type="password" name="" id="" class="upPass" placeholder="Enter password">
-        <input type="password" name="" id="" class="cpass" placeholder="Confirm password">
-        <button class="sinUP">Sign Up</button>
-        <p class="sup">Already Have Account ? Sign In </p>
-    </div>
+    <div id = "bye">
+        <input type="email"  class="upEmail" placeholder="Enter Email">
+        <input type="password"   class="upPass" placeholder="Enter password">
+        <input type="password"   class="cpass" placeholder="Confirm password">
+        <button class="sinUP" onclick="xyz()">Sign Up</button>
     </div>
 </section>
+
+<script>
+    let x = document.getElementById("bye")
+    let y = document.getElementById("page")
+    function abc () {
+        x.style.right="0px"
+        y.style.right="300px"
+    }
+    function xyz() {
+        x.style.right="-300px"
+        y.style.right="0px"
+    }
+</script>
 </body>
 </html>
