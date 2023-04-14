@@ -5,20 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="btn.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
     <script src="./script.js"></script>
     <title>LOGIN
     </title>
 </head>
 <body>
+<nav class="nav">
+    <ul>
+        <li>Contact Us</li>
+        <li>Socials</li>
+        <li>About</li>
+    </ul>
+</nav>
+
 <section class="mainsec">
     <div id="page">
+        <h1 class="title">LOGIN</h1>
         <input type="email" class="mail" placeholder="Enter Email">
         <input type="password" class="pass" placeholder="Enter password">
         <a href="" class="fpass">Forgot Password ?</a>
-        <button class="sin">Login In</button>
-        <button class="x" onclick=" abc()" >Sign Up?</button>
+        <div class="btn">
+        <button class="sin" >Login In</button>
+        <button class="sin" id="sin" onclick=" abc()" >Sign Up ?</button>
+        </div>
     </div>
     <div id = "bye">
+        <h1> SIGN UP</h1>
         <input type="email"  class="upEmail" placeholder="Enter Email">
         <input type="password"   class="upPass" placeholder="Enter password">
         <input type="password"   class="cpass" placeholder="Confirm password">
