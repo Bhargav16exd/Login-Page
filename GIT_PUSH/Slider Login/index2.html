@@ -14,42 +14,34 @@
     </title>
 </head>
 <body>
-<nav class="nav">
-    <ul>
-        <li>Contact Us</li>
-        <li>Socials</li>
-        <li>About</li>
-    </ul>
-</nav>
-
 <section class="mainsec">
-    <div id="page">
+    <div id="sign_in">
         <h1 class="title">LOGIN</h1>
         <input type="email" class="mail" placeholder="Enter Email">
         <input type="password" class="pass" placeholder="Enter password">
         <a href="" class="fpass">Forgot Password ?</a>
         <div class="btn">
         <button class="sin" >Login In</button>
-        <button class="sin" id="sin" onclick=" abc()" >Sign Up ?</button>
+        <button class="sin" id="sin" onclick=" slide1()" >Sign Up ?</button>
         </div>
     </div>
-    <div id = "bye">
+    <div id = "sign_up">
         <h1> SIGN UP</h1>
         <input type="email"  class="upEmail" placeholder="Enter Email">
         <input type="password"   class="upPass" placeholder="Enter password">
         <input type="password"   class="cpass" placeholder="Confirm password">
-        <button class="sinUP" onclick="xyz()">Sign Up</button>
+        <button class="sinUP" onclick="slide2()">Sign Up</button>
     </div>
 </section>
 
 <script>
-    let x = document.getElementById("bye")
-    let y = document.getElementById("page")
-    function abc () {
+    let x = document.getElementById("sign_up")
+    let y = document.getElementById("sign_in")
+    function slide1 () {
         x.style.right="0px"
         y.style.right="300px"
     }
-    function xyz() {
+    function slide2() {
         x.style.right="-300px"
         y.style.right="0px"
     }

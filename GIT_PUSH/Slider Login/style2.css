@@ -24,7 +24,7 @@ body{
    background-color: white;
    border-radius: 20px;
 }
-#page{
+#sign_in{
     height: 400px;
     width: 300px; 
     display: flex;
@@ -36,7 +36,7 @@ body{
     transition: 2s;
 
 }
-#bye{
+#sign_up{
    height: 400px;
    width: 300px; 
    border: 1px;
@@ -59,10 +59,11 @@ body{
 }
 .mail{
    margin: 10px;
-   padding: 10px 30px;
+   padding: 10px 40px;
    border: none;
    border-radius: 10px;
    border: 1px solid #4EB44B;
+   width: 280px;
 
 }
 .pass:focus{
@@ -74,10 +75,11 @@ body{
 
 .pass{
    margin: 10px;
-   padding: 10px 30px;
+   padding: 10px 40px;
    border: none;
    border-radius: 10px;
    border: 1px solid #4EB44B;
+   width: 280px;
 }
 
 
@@ -96,10 +98,6 @@ body{
    color: white;
    position: relative;
    right: 0px;
-}
-#sin{
-   /* position: relative;
-   top:20px; */
 }
 .btn{
    padding: 10px;
